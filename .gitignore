@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudio,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudio,node
 
+notes-api-webserver.pem
+
 ### Node ###
 # Logs
 logs
