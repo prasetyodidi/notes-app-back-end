@@ -73,7 +73,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(404);
+        response.code(error.code);
         return response;
       }
 
@@ -103,7 +103,7 @@ class NotesHandler {
           status: 'fail',
           message: error.message,
         });
-        response.code(404);
+        response.code(error.code);
         return response;
       }
 
