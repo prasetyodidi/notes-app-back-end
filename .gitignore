@@ -1,6 +1,5 @@
 node_modules
 notes-api-web-server.pem
-.env
 .prod.env
 src/api/uploads/file
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudio,node
@@ -527,3 +526,4 @@ FodyWeavers.xsd
 *.tlog
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudio,node
+/src/api/uploads/file/
